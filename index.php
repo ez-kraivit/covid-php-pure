@@ -30,7 +30,7 @@ curl_close($cases_by_country);
 
 // print($show2);
 
-// ทำการแปลง json to array 
+// ทำการแปลง json to array เรียกตามหลัก Dev ทำการถอด json มาเป็นเก็บไว้ในตัวแปร
 $respArray2 = json_decode($show2, true);
 // print_r($respArray2);
 
@@ -56,7 +56,7 @@ curl_close($world_total_stat);
 
 // print_r($show3);
 
-// ทำการแปลง json to array 
+// ทำการแปลง json to array เรียกตามหลัก Dev ทำการถอด json มาเป็นเก็บไว้ในตัวแปร
 $respArray3 = json_decode($show3, true);
 // print_r($respArray3);
 
